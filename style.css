@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 900px){
+
+    header{
+        padding: 15px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #212529;
+    }
+
+    button, a{
+        color: white;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    li{
+        transition: transform 0.3s ease 0s;
+    }
+
+    li:hover{
+        transform: scale(1.2);
+    }
+
+    .link{
+        padding: 0 15px;
+        text-decoration: none;
+        transition: color 0.3s ease 0s;
+        white-space: nowrap;
+    }
+
+    .link:hover{
+        color: #0466c8;
+    }
+
+    #contact{
+        padding: 5px 8px;
+        border: 2px solid #0466c8;
+        border-radius: 15px;
+        background-color: rgba(4, 102, 200, 0.8);
+        transition: background-color 0.3s ease 0s;
+
+    }
+
+    #contact:hover{
+        background-color: rgba(4, 102, 200, 1);
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    
+    header{
+        padding: 15px 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #212529;
+    }
+
+    button, a{
+        color: white;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-content: center;
+        height: 30px;
+    }
+
+    nav{
+        margin-bottom: 10px;
+        width: calc(100% - 100.562528px);
+        height: 30px;
+    }
+
+    li{
+        transition: transform 0.3s ease 0s;
+        height: 30px;
+    }
+
+    .link{
+        padding: 0 15px;
+        text-decoration: none;
+        transition: color 0.3s ease 0s;
+        white-space: nowrap;
+        text-align: center;
+        height: 30px;
+    }
+
+    .link:hover{
+        color: #0466c8;
+    }
+
+    #contact{
+        padding: 5px 8px;
+        border: 2px solid #0466c8;
+        border-radius: 15px;
+        background-color: rgba(4, 102, 200, 0.8);
+        transition: background-color 0.3s ease 0s;
+
+    }
+
+    #contact:hover{
+        background-color: rgba(4, 102, 200, 1);
+    }
+
+}
