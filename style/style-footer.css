@@ -1,0 +1,39 @@
+footer{
+    padding: 15px 10%;
+    background-color: #212529;
+    color: white;
+}
+
+footer a{
+    color: white;
+    transition: color 0.3s ease 0s;
+} 
+
+footer a:hover{
+    color: #0466c8;
+
+} 
+
+footer li{
+    width: fit-content;
+}
+
+.lien{
+    transition: all 0.3s ease 0s;
+}
+
+.lien:hover{
+    font-size: 1.2em;
+} 
+
+#no-style{
+    list-style-type: none;
+}
+
+.niv1{
+    margin-left: 20px;
+}
+
+.niv2{
+    margin-left: 25px;
+}

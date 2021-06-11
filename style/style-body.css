@@ -1,7 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background: #e9ecef;
     line-height: 150%;
+    
 }
 
 #corps{
@@ -10,6 +14,23 @@ body{
     border: 2px solid #343a40;
     border-top: none;
     border-bottom: none;
+}
+
+#haut-de-page{
+    position: fixed;
+    bottom: 3%;
+    right: calc(8% + 20px);
+    padding: 5px 8px;
+    border: 2px solid #525252;
+    border-radius: 15px;
+    background-color: rgba(235, 235, 235, 0.582);
+    transition: all 0.3s ease 0s;
+}
+
+#haut-de-page:hover{
+    background-color: rgba(235, 235, 235, 1);
+    padding: 5px 18px;
+    right: calc(8% + 15px);
 }
 
 .titre{
@@ -21,13 +42,21 @@ body{
     width: fit-content;
     padding-bottom: 5px;
     border-bottom: 2px solid #343a40;
+    scroll-behavior: smooth;
+    transition: all 0.3s ease 0s;
+}
+
+.titre:hover{
+    font-size: 2.5em;
+    padding-bottom: 7.5px;
 }
 
 #img-desc{
     width: 20%;
     max-width: 350px;
+    min-width: 150px;
     float: left;
-    margin-right: 2%;
+    margin-right: 15px;
     border-radius: 5px;
     box-shadow: 3px 3px 10px #343a40;
     transition: all 0.3s ease 0s;
