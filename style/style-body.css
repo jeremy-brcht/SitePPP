@@ -27,10 +27,13 @@ body{
     transition: all 0.3s ease 0s;
 }
 
-#haut-de-page:hover{
-    background-color: rgba(235, 235, 235, 1);
-    padding: 5px 18px;
-    right: calc(8% + 15px);
+@media screen and (min-width: 900px){
+
+    #haut-de-page:hover{
+        background-color: rgba(235, 235, 235, 1);
+        padding: 5px 18px;
+        right: calc(8% + 15px);
+    }
 }
 
 .titre{
